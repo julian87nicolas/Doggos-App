@@ -1,0 +1,91 @@
+*{
+    background-color:  rgb(160, 196, 163);
+    font-family: 'Hubballi', cursive;
+    color: white;
+}
+
+.top-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(97, 163, 102);
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+/*body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+
+h1{
+    font-size: 80px;
+    border: none;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 20px;
+    margin: 10px;
+    /*background-color: rgb(97, 162, 163);*/
+    background-color:  rgb(97, 163, 102);
+}
+
+.add-doggo{
+    border: none;
+    border-radius: 20px;
+    font-size: 40px;
+    /*color:rgb(126, 210, 212);*/
+    color:  rgb(97, 163, 102);
+    background-color: white;
+    padding: 15px;
+    margin: 30px;
+}
+
+.add-doggo:hover{
+    cursor: pointer;
+    border: 10px solid white;
+    font-size: 50px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px 5px 10px 0px;
+}
+
+.add-doggo:active{
+    cursor: pointer;
+    border: 0px solid rgb(163, 163, 163);
+    font-size: 50px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px 5px 10px 0px;
+    background-color: rgb(163, 163, 163);
+}
+
+.doggos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.doggos img{
+    height: 300px;
+}
+
+.doggo-select{
+    border: none;
+    font-size: 40px;
+    color: white;
+    background-color:  rgb(97, 163, 102);
+    padding: 20px;   
+}
+
+.doggo-select option{
+    background-color:  rgb(97, 163, 102);
+}
+
+.doggo-select:hover{
+    cursor: pointer;
+}
